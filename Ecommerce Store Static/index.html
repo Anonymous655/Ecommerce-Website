@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Generics | Store</title>
+  </head>
+  <body>
+    <header>
+      <a id="store" href="index.html">STORE</a>
+      <h1 id="logo">The Generics</h1>
+    </header>
+    <div class="parts">Music</div>
+    <section class="section1">
+      <div class="container">
+        <h2 class="album">Album 1</h2>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwG05kcupBQOwW1t6_1E_TiS7u9kApOIXK9yYW1JlQTX_opP3VM-6KpOW3kX0uTDsZ7yA&usqp=CAU"
+          alt=""
+        />
+        <div class="checkout">
+          <div class="price">$12.99</div>
+          <button class="atc">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="album">Album 2</h2>
+        <img
+          src="https://image.shutterstock.com/image-vector/very-realistic-vinyl-mock-up-600w-313447283.jpg"
+          alt=""
+        />
+        <div class="checkout">
+          <div class="price">$14.99</div>
+          <button class="atc">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="album">Album 3</h2>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEULxTfM4poom1Svqq9K3FszJ3s9D0OSLz2zTb-m8NBpvJlTi6HvwcqgbBOym0s-_xZO4&usqp=CAU"
+          alt=""
+        />
+        <div class="checkout">
+          <div class="price">$9.99</div>
+          <button class="atc">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="album">Album 4</h2>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQakT6FbPNM56t7_qUxOCLzH5rICscgCVDG23zhp8DfDNTcMyUDr6Y7FMzvr_-hJY48ErA&usqp=CAU"
+          alt=""
+        />
+        <div class="checkout">
+          <div class="price">$19.99</div>
+          <button class="atc">ADD TO CART</button>
+        </div>
+      </div>
+    </section>
+    <div class="parts">Merch</div>
+    <section class="section1">
+      <div class="container">
+        <h2 class="album">T-Shirt</h2>
+        <img
+          src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <div class="checkout">
+          <div class="price">$19.99</div>
+          <button class="atc">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="album">Coffee Cup</h2>
+        <img
+          src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+        />
+        <div class="checkout">
+          <div class="price">$6.99</div>
+          <button class="atc">ADD TO CART</button>
+        </div>
+      </div>
+    </section>
+    <div class="parts">CART</div>
+    <section id="cart">
+      <div class="container2">
+        <div class="pieces names" id="item">ITEM</div>
+        <div class="pieces names">PRICE</div>
+        <div class="pieces names">QUANTITY</div>
+        <div class="pieces added-products lst-3">
+          <img
+            src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt=""
+            class="tshirt-img"
+          />
+          <div class="tshirt img-text">T-Shirt</div>
+        </div>
+        <div class="pieces price2">$19.99</div>
+        <div class="pieces quantity">
+          <input type="number" value="1" class="cart-quantity" />
+          <button class="remove-btn">REMOVE</button>
+        </div>
+        <div class="pieces added-products last-3">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEULxTfM4poom1Svqq9K3FszJ3s9D0OSLz2zTb-m8NBpvJlTi6HvwcqgbBOym0s-_xZO4&usqp=CAU"
+            alt=""
+            class="album3-img"
+          />
+          <div class="album3 img-text">Album 3</div>
+        </div>
+        <div class="pieces price2 last-3">$9.99</div>
+        <div class="pieces quantity last-3">
+          <input type="number" value="1" class="cart-quantity" />
+          <button class="remove-btn">REMOVE</button>
+        </div>
+      </div>
+      <div class="amount">
+        <div class="total">Total</div>
+        <div class="t-amount">$39.97</div>
+      </div>
+    </section>
+    <div class="purchase">
+      <button id="btn">PURCHASE</button>
+    </div>
+    <footer>
+      <div class="footer-name">The Generics</div>
+      <div class="links">
+        <a
+          href="https://www.youtube.com/" target="_blank" 
+          ><img src="yt-logo.png"
+          alt="Youtube"></a>
+        <a href="https://www.spotify.com/us/home/" target="_blank"
+          ><img src="spotify-logo.png" alt="SPotify"
+        /></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="fb-logo.png" alt="Facebook" /></a>
+      </div>
+    </footer>
+  </body>
+</html>
